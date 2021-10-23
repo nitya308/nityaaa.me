@@ -1,0 +1,111 @@
+/* Styles for projects and project pages*/
+
+/* Styles for project cards on home page*/
+.project{ 
+  border-radius: 10px;
+  padding: 4%;
+}
+
+/* Conatiner for all project cards */
+.proj-container{ 
+  padding: 2%;
+  padding-bottom: 0;
+}
+
+/* Hovering over project cards */
+.project:hover { 
+  box-shadow: 10px 10px 15px 0px #a9a9a9;
+  transform: translateY(-4px);
+}
+
+/* Header for all project cards */
+.proj-header{
+  float: right;
+  text-align: right !important;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* Header for all project cards aligns left in breakpoint with single column*/
+@media (max-width: 991.98px) { 
+  .proj-header{
+  float: left;
+  text-align: left !important;
+  font-size: 0.9em;
+  } 
+
+  h3{
+    text-align: left !important;
+  }
+}
+
+/* image in project cards */
+.proj-img {
+  clear: both;
+  display: block;
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  border: 5px solid #181818;
+  border-radius: 15px;
+}
+
+/* tagline in project cards */
+.tagline {
+  text-align: right;
+  font-size: 1.3em;
+  letter-spacing: 1.2px;
+}
+
+
+/* giving each project card a specific background color */
+#ldm-container{
+  background-image: linear-gradient(to bottom right, #BCE9F8, #B8AADC);
+}
+
+#match-container{
+  background-image: linear-gradient(to bottom right, #FFE9ED, #C9BEE4);
+}
+
+#art-container{
+  background:linear-gradient(160deg, rgb(217, 255, 147) 0%, rgba(198,240,183,1) 20%, rgba(94,192,187,1) 90%);
+}
+
+/* Styles for individual project pages*/
+/* title for each project */
+.proj-title{
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+/* intro image for each project */
+.proj-img-1{
+  margin-top: 50px;
+}
+
+/* all other images for each project */
+.proj-subimg{
+  box-shadow: 5px 5px 5px 0px #D3D3D3;
+  border-radius: 10px;
+}
+
+/* about text for each project */
+.proj-about{
+  max-width: 500px;
+}
+.proj-about div{
+  font-size: 1.05em;
+}
+
+/* setting gradient background for each project header */
+#project-art {
+  background:linear-gradient(160deg, rgba(255,226,147,1) 0%, rgba(198,240,183,1) 41%, rgba(94,192,187,1) 97%);
+}
+
+#project-match {
+  background-image: linear-gradient(to bottom, #FFE9ED, #C9BEE4);
+}
+
+#project-ldm {
+  background-image: linear-gradient(to bottom, #BCE9F8, #B8AADC);
+}

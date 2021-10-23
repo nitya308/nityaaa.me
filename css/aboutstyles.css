@@ -1,0 +1,98 @@
+/* Styles for About page */
+
+/* Styles for Journey boxes (j-box) */
+.j-box{
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.1em;
+  text-align: left;
+  box-shadow: 2px 2px 1px #D3D3D3;
+  border-radius: 5px;
+}
+
+/* Does not display current text when boxes are hovered over */
+.j-box:hover span{
+  display: none;
+}
+
+/* Individual styles each journey box:
+  1. Background color
+  2. Hover background color
+  3. content to display on hover */
+
+/* Journey box 1 */
+.j1 {
+  background-color: #BEEBE9;
+}
+
+.j1:hover{
+  background-color: #87dadd;
+}
+
+.j1:hover:before {
+  content:"• AP Computer Science A: 5 • English, Math, Physics, Chemistry HL & Psychology SL: 45/45 📚 ";
+}
+
+/* Journey box 2 */
+.j2 {
+  background-color: #D0C2F7;
+}
+
+.j2:hover{
+  background-color: #b3a2e2;
+}
+
+.j2:hover:before {
+  content:"• learnt about product design, user research & pitching! 🎨"
+}
+
+/* Journey box 3 */
+.j3 {
+  background-color: #ffb6b9;
+}
+
+.j3:hover{
+  background-color: #ffcfcd;
+}
+
+.j3:hover:before {
+  content:"• currently in the midst of java data structures 👍🏻";
+}
+
+/* Journey box 4 */
+.j4 {
+  background-color: #dcedc1;
+}
+
+.j4:hover{
+  background-color: #b9d191;
+}
+
+.j4:hover:before {
+  content:"• came up with a project using sentiment analysis to help YouTube creators organize comments & feedback on their videos! ▶️";
+}
+
+/* Journey box 5 */
+.j5 {
+  background-color: #FFE7A7;
+}
+
+.j5:hover{
+  background-color: #f5d47c;
+}
+
+.j5:hover:before {
+  content:"• worked on an ed-tech project evaluating support systems in low-income schools in India ✏️";
+}
+
+/* Styles for profile image in about page*/
+#profileimg {
+  width: 80%;
+  max-width:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* End of styles for About page */
+

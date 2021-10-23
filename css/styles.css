@@ -1,0 +1,219 @@
+/* Styles for all pages on website*/
+
+/* STYLES for NAVBAR (site header) */
+.navbar {
+  font-size: 1.2em;
+  background-color: #000000 !important;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-item { 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-link {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* styling dropdown menu in navbar */
+.dropdown:hover .dropdown-menu { 
+  display: block;
+}
+
+.dropdown-menu { 
+  min-width: none;
+  margin-top: 0;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px lightcoral;
+}
+
+.dropdown-hr { /* horizontal lines in dropdown menu */
+  width: 50%;
+  margin-top: 0;
+}
+
+.dropdown-item:hover { /* make dropdown menu font bold on hover */
+  font-weight: 600;
+  background-color: inherit;
+}
+
+/* STYLES FOR BUTTONS*/
+/* Style for button holder and title*/
+.button-holder {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.button-title{
+  font-weight: 350;
+  letter-spacing: 1px;
+}
+
+.button-link{
+  color:#003366;
+  text-decoration: underline;
+}
+
+.button-link:hover {
+  color: #000000;
+}
+
+/* Styles for previous and next buttons */
+#prev{
+  background-image:url("../images/prev.png"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#next{
+  background-image:url("../images/next.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+/* STYLES FOR IMAGES */
+img{
+  width: 100%;
+}
+
+/* To fade-in images */
+.fade-in-img {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* Border for homepage image */
+.home-img{
+  border-radius: 10px;
+}
+
+/* image captions */
+.img-caption{
+  font-size: 0.9em;
+  line-height: 1;
+  margin: 10px;
+}
+
+/* STYLES for BASIC ELEMENTS: div, section, hr, links */
+div {
+  font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 1.05em;
+}
+
+section{
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sec-top{ /* Special type of section with extra padding at the top */
+  padding-top: 5%;
+}
+
+hr{
+  width: 50%;
+}
+
+/* styles for contact information hyperlinks */
+.contact {
+  color: #0077E1;
+  text-decoration: underline;
+}
+
+/* STYLES FOR HEADINGS */
+/* h1: used for introduction, aligned left */
+h1 { 
+  font-family: 'Alegreya', serif;
+  font-size: 2.6em;
+  text-align: left;
+  line-height: 1;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+/* h2: used for subheading, aligned center */
+h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+/* h3: used for project cards, aligned right */
+h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: right;
+}
+
+/* h4: used for project titles, aligned left */
+h4{
+  font-family: 'Alegreya', serif;
+  font-size: 2.4em;
+  text-align: left;
+}
+
+/* h5: used for project subtitles */
+h5{
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+/* h6: used for buttons*/
+h6{
+  font-family: 'Alegreya', serif;
+  font-size: 1.8em;
+}
+
+/* adding padding to all columns used*/
+.col-md-7, .col-md-5, .col-sm, .col-lg-5, .col-lg-7, .col-lg, .col-lg{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
