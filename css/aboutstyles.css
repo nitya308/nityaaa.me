@@ -5,9 +5,14 @@
   margin: 20px auto;
   padding: 20px;
   font-size: 1.1em;
+  font-weight: 400;
   text-align: left;
   box-shadow: 2px 2px 1px #D3D3D3;
   border-radius: 5px;
+}
+
+.j-box b{
+  font-weight: 500;
 }
 
 /* Does not display current text when boxes are hovered over */
