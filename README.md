@@ -2,7 +2,7 @@
 
 **Author:** Nitya Agarwala
 
-**Created:** 2021       **Description:** Nitya's personal portfolio repository.
+**Created:** 2021 | **Description:** Nitya's personal portfolio repository.
 
 **Hosted at domain:** https://nityaaa.me
 
@@ -12,6 +12,6 @@
 
 ## Structure:
 The site has 3 main sections:
-1. **A Homepage** (index.html)
-2. **About** page (about.html)
-3. **Project** pages describing things I've worked , hobbies etc.
+1. **A Homepage** ```index.html```
+2. **About** page ```about.html```
+3. **Project** pages describing things I've worked & hobbies.
