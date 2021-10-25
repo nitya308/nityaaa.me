@@ -1,10 +1,9 @@
 # Nitya's Personal Portfolio
 
 **Author:** Nitya Agarwala
-
 **Created:** 2021  **Description:** Nitya's personal portfolio repository.
 
-**Hosted at domain:** nityaaa.me
+**Hosted at domain:** https://nityaaa.me
 
 ## Basic Details:
 **Languages:** HTML, CSS, JavaScript
