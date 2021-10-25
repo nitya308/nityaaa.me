@@ -2,7 +2,7 @@
 
 **Author:** Nitya Agarwala
 
-**Created:** 2021  **Description:** Nitya's personal portfolio repository.
+**Created:** 2021   **Description:** Nitya's personal portfolio repository.
 
 **Hosted at domain:** https://nityaaa.me
 
