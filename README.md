@@ -91,3 +91,19 @@ Following styles are further cutomized from the ```styles.css file```
     |      |-- heading and tagline
     |      |-- project image
  ```
+ Bootstrap containers provide automatic padding and margins for each project card.  
+ Each project card also has a unique background color provided to it using the gradient function in ```workstyles.css```.
+ 
+```
+#ldm-container{
+  background-image: linear-gradient(to bottom right, #BCE9F8, #B8AADC);
+}
+
+#match-container{
+  background-image: linear-gradient(to bottom right, #FFE9ED, #C9BEE4);
+}
+
+#art-container{
+  background:linear-gradient(160deg, rgb(217, 255, 147) 0%, rgba(198,240,183,1) 20%, rgba(94,192,187,1) 90%);
+}
+```
