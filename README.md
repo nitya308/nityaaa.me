@@ -219,3 +219,6 @@ Each project page follows the same basic template:
   background-position-y: bottom;
 }
 ```  
+
+## Hosting  
+This website is hosted at: https://nityaaa.me a free domain from Namecheap!
