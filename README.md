@@ -18,7 +18,8 @@ The site has 3 main sections:
 ## Navbar
 
 The Bootstrap Navbar is organised as follows
- ```| -- Projects (dropdown)
+ ```
+    | -- Projects (dropdown)
     |   |-- Let's Do More (project #1)
     |   |-- Student VolunteerMatch (project #2)
     |   |-- Art(project #3)
