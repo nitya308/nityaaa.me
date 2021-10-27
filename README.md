@@ -163,7 +163,7 @@ Each project page follows the same basic template:
  
  ## Animated images  
  
- Images on each page are set to fade in over 2s using CSS animations in  ```  styles.css ```  
+ Images on each page are set to **fade in** over 2s using CSS animations in  ```  styles.css ```  
   ```  
  .fade-in-img {
   animation: fadeIn 2s;
@@ -198,3 +198,24 @@ Each project page follows the same basic template:
 }
   ```  
  ## Buttons
+ 
+ Each page features two buttons at the end: a next button and a previous button. 
+ 
+ ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+ 
+ The buttons are styled using a background image for each previous and next button:  
+ ```  
+ #prev{
+  background-image:url("../images/prev.png"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#next{
+  background-image:url("../images/next.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+```  
