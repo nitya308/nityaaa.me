@@ -18,7 +18,7 @@ The site has 3 main sections:
 
 ## Navbar
 
-The Bootstrap Navbar is organised as follows
+The Bootstrap Navbar is organised as follows:
  ```
  --navbar
     | -- Projects (dropdown)
@@ -65,3 +65,29 @@ Following styles are further cutomized from the ```styles.css file```
 ``` .nav-link``` aligns all links to the center and overrides the default underline ```text-decoration``` in Bootstrap 
 
 ## HomePage
+
+``` index.html```  has the following basic structure  
+```
+ --index.html
+    | -- <section> for introduction
+    |   |-- intro text
+    |   |-- intro image
+    |
+    |-- <section> for project #1
+    |  |-- <div class = "container"> 
+    |    |-- <a href="link to project#1"
+    |      |-- heading and tagline
+    |      |-- project image
+    |
+    |-- <section> for project #2
+    |  |-- <div class = "container"> 
+    |    |-- <a href="link to project#2"
+    |      |-- heading and tagline
+    |      |-- project image
+    |
+    |-- <section> for project #3
+    |  |-- <div class = "container"> 
+    |    |-- <a href="link to project#3"
+    |      |-- heading and tagline
+    |      |-- project image
+ ```
