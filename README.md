@@ -201,7 +201,7 @@ Each project page follows the same basic template:
  
  Each page features two buttons at the end: a next button and a previous button. 
  
- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+ ![Image of Yaktocat](https://github.com/nitya308/nityaaa.me/blob/42821aa9fa9c4975db4c81b754980cb58f84c52f/images/buttons.png)
  
  The buttons are styled using a background image for each previous and next button:  
  ```  
