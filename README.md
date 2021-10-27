@@ -29,3 +29,36 @@ The Bootstrap Navbar is organised as follows
     |
     |-- About
  ```
+### Navbar styles
+The navbar uses the following bootstrap styles:  
+``` <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">``` 
+  
+```sticky-top```: to keep the position fixed on screen   
+```expand-md```: only exppands navbar at > medium devices   
+```navbar-dark, bg-dark```: set the black color-scheme for navbar  
+  
+Following styles are further cutomized from the ```styles.css file```  
+
+```
+  .navbar {
+  font-size: 1.2em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-item { 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+```  
+
+``` .navbar```  sets padding on the sides of navbar; ``` .nav-item```  ensures sufficient space between each element inside the navbar  
+
+``` 
+.nav-link {
+  text-align: center;
+  text-decoration: none;
+}
+``` 
+
+``` .nav-link``` aligns all links to the center and overrides the default underline ```text-decoration``` in Bootstrap 
