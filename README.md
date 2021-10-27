@@ -90,7 +90,8 @@ Following styles are further cutomized from the ```styles.css file```
     |    |-- <a href="link to project#3"
     |      |-- heading and tagline
     |      |-- project image
- ```
+ ```  
+ ### Homepage styles
  Bootstrap containers provide automatic padding and margins for each project card.  
  Each project card also has a unique background color provided to it using the gradient function in ```workstyles.css```.
  
