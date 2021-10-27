@@ -1,7 +1,7 @@
 # Nitya's Personal Portfolio
 
 **Author:** Nitya Agarwala  
-**Author:** Designed by: Nitya Agarwala  
+Designed by: Nitya Agarwala  
 **Created:** 2021 | **Description:** Nitya's personal portfolio repository.
 
 **Hosted at domain:** https://nityaaa.me
