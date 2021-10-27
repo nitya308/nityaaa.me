@@ -1,6 +1,7 @@
 # Nitya's Personal Portfolio
 
 **Author:** Nitya Agarwala  
+**Author:** Designed by: Nitya Agarwala  
 **Created:** 2021 | **Description:** Nitya's personal portfolio repository.
 
 **Hosted at domain:** https://nityaaa.me
@@ -62,3 +63,5 @@ Following styles are further cutomized from the ```styles.css file```
 ``` 
 
 ``` .nav-link``` aligns all links to the center and overrides the default underline ```text-decoration``` in Bootstrap 
+
+## HomePage
