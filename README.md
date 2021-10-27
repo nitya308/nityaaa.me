@@ -13,4 +13,4 @@
 The site has 3 main sections:
 1. **A Homepage** ```index.html```
 2. **About** page ```about.html```
-3. **Project** pages describing things I've worked & hobbies.
+3. **Project** pages describing things I've worked & hobbies ```ldm.html``` ```art.html``` ```match.html```
