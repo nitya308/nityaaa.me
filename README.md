@@ -108,3 +108,59 @@ Following styles are further cutomized from the ```styles.css file```
   background:linear-gradient(160deg, rgb(217, 255, 147) 0%, rgba(198,240,183,1) 20%, rgba(94,192,187,1) 90%);
 }
 ```
+
+## Project Pages
+
+Each project page follows the same basic template:
+```
+ --match.html
+    | -- <div class = "container"> for **Project Header**
+    |   |-- Heading + tagline
+    |   |-- 2 responsive header images
+    |
+    |-- <div class = "container proj-about"> for **About Project**
+    |      |-- heading
+    |      |-- description + link to the project
+    |
+    |-- <div class = "row"> for **Project features**
+    |      |-- image/text column
+    |      |-- image/text column
+    |
+    |-- <div class = "row"> for more **project features**
+    |      |-- image/text column
+    |      |-- image/text column
+    |
+ ```  
+ 
+ ### Project styles  
+ Project images have a rounded box and dropshadow along with a caption
+ ```  
+ .proj-subimg{
+  box-shadow: 5px 5px 5px 0px #D3D3D3;
+  border-radius: 10px;
+}
+
+.img-caption{
+  font-size: 0.9em;
+  line-height: 1;
+  margin: 10px;
+}
+ ```  
+ Gradients are also used to asign each project header a unique color (by ID) for design effect  
+ ```  
+ #project-art {
+  background:linear-gradient(160deg, rgba(255,226,147,1) 0%, rgba(198,240,183,1) 41%, rgba(94,192,187,1) 97%);
+}
+
+#project-match {
+  background-image: linear-gradient(to bottom, #FFE9ED, #C9BEE4);
+}
+
+#project-ldm {
+  background-image: linear-gradient(to bottom, #BCE9F8, #B8AADC);
+}
+ ```  
+ 
+ ## Animated images
+ 
+ ## Buttons
